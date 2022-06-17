@@ -8,7 +8,7 @@ Users can connect to the server using the netstat command which comes built-in i
 ## Compiling 
 >Compiling on Linux
 ```
-cc server.c -o server -lsocket -lnsl -lpthread 
+cc server_tcp_udp.c -o server -lsocket -lnsl -lpthread 
 ```
 ## Connecting to server
 >To install netstat
